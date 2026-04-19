@@ -967,9 +967,9 @@ function submitForm(){
        return ContentService.createTextOutput('OK');
      }
   3. Deploy as Web App (Execute as: Me, Access: Anyone)
-  4. Copy the Web App URL and replace 'YOUR_URL' below:
+  4. Copy the Web App URL and replace 'https://script.google.com/macros/s/AKfycbzgnSZZuf_CUfOxc_zUkvlf53POmBa_sh34O9Lfo7HPyrVo7DbeyxpqsyF8RDiGIM4VWA/exec' below:
   
-  fetch('YOUR_URL', {
+  fetch('https://script.google.com/macros/s/AKfycbzgnSZZuf_CUfOxc_zUkvlf53POmBa_sh34O9Lfo7HPyrVo7DbeyxpqsyF8RDiGIM4VWA/exec', {
     method:'POST',
     body: JSON.stringify({
       parent: p, child: c, phone: ph,
